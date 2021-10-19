@@ -17,6 +17,7 @@ class TransactionList extends StatelessWidget {
               children: <Widget>[
                 Text(
                   'No transactions added yet!',
+                  // ignore: deprecated_member_use
                   style: Theme.of(context).textTheme.title,
                 ),
                 SizedBox(
